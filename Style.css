@@ -126,6 +126,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   padding: var(--default-pad);
+  flex-shrink: 0;
 
 
 }
