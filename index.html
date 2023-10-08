@@ -1,100 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <link rel="stylesheet" href="Style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="Style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header class="top_nav">
+        <nav>
+          <ul class="topnav_menu">
+            <li>
+              <a href="#"><img src="img/User.png" alt="" />Profile</a>
+            </li>
+            <li>
+              <a href="#"><img src="img/Gear.png" alt="" />Setting</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="perfil">
+          <div>Inácio</div>
+          <div>Front-end</div>
+        </section>
+      </header>
+      
     <nav class="main_nav">
-        <a href="#" class="inicial">DASHBOARD</a>
+      <a href="#" class="inicial">DASHBOARD</a>
 
-        <div class="menu">
-            <ul class="menu_ul">
-                <li><a href="#"><img src="img/Home.png" alt="">Dashboard</a></li>
-                <li><a href="#"><img src="img/Announced.png" alt="">Announced</a></li>
-                <li><a href="#"><img src="img/NotePencil.png" alt="">Preparation</a></li>
-                <li><a href="#"><img src="img/ListChecks.png" alt="">Sorted</a></li>
-                <li><a href="#"><img src="img/Distributed.png" alt="">Distributed</a></li>
-                <li><a href="#"><img src="img/SignOut.png" alt="Sair">Logout</a></li>
-            </ul>
-
-            
-                
-            
-
-
-        </div>
-
+      <div class="menu">
+        <ul class="menu_ul">
+          <div>
+            <li>
+              <a href="#"
+                ><img src="img/Home.png" alt="" /><span>Dashboard</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="img/Announced.png" alt="" /><span>Announced</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="img/NotePencil.png" alt="" /><span
+                  >Preparation</span
+                ></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="img/ListChecks.png" alt="" /><span>Sorted</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="img/Distributed.png" alt="" /><span
+                  >Distributed</span
+                ></a
+              >
+            </li>
+          </div>
+          <div>
+            <li>
+              <a href="#"
+                ><img src="img/SignOut.png" alt="Sair" /><span>Logout</span></a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
     </nav>
 
     <div class="main_content">
-        
-        <header class="top_nav">
-            <nav>
-                
-                <ul class="topnav_menu">
-                    
-                    <li><a href="#"><img src="img/User.png" alt="">Profile</a></li>
-                    <li><a href="#"><img src="img/Gear.png" alt="">Setting</a></li>
-                </ul>
-            </nav>
-            <section class="perfil">
-                <div>Inácio</div>
-                <div>Front-end</div>
+    
+      <main class="">
+        <section class="sumary">
+          <article>
+            <span class="description">Announced Today</span>
+            <span class="number">235600</span>
+          </article>
+          <span class="separate"></span>
 
+          <article>
+            <span class="description">Prepared Today</span>
+            <span class="number">16738</span>
+          </article>
+          <span class="separate"></span>
+          <article>
+            <span class="description">Sorted Today</span>
+            <span class="number">286</span>
+          </article>
+          <a href="#" class="btn">See more</a>
+        </section>
 
-            </section>
+        <article class="main-chart">
+          <img src="img/chart1.png" alt="chart1" class="w-100"/>
+        </article>
+        <div class="charts">
+          <article class="chart">
+            <img src="img/chart2.png" alt="chart2" />
+          </article>
 
-
-
-        </header>
-        <main class="">
-            <section class="sumary">
-                <article>
-                    <span class="description">Announced Today</span>
-                    <span class="number">235600</span>
-                </article>
-                <span class="separate"></span>
-
-                <article>
-                    <span class="description">Prepared Today</span>
-                    <span class="number">16738</span>
-                </article>
-                <span class="separate"></span>
-                <article>
-                    <span class="description">Sorted Today</span>
-                    <span class="number">286</span>
-                </article>
-                <a href="#" class="btn">See more</a>
-
-            </section>
-
-            <article class="main-chart">
-                <img src="img/chart1.png" alt="chart1">
-            </article>
-            <div class="charts">
-                <article class="chart">
-                    <img src="img/chart2.png" alt="chart2">
-                </article>
-
-                <article class="chart">
-                    <img src="img/chart3.png" alt="chart3">
-                </article>
-
-
-            </div>
-
-
-
-        </main>
-
-
+          <article class="chart">
+            <img src="img/chart3.png" alt="chart3" />
+          </article>
+        </div>
+      </main>
     </div>
-
-</body>
-
+  </body>
 </html>
