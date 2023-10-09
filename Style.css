@@ -31,7 +31,7 @@ a:link {
   position: absolute;
   height: 64px;
   flex-shrink: 0;
-  background-color: #ddd;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
 }
@@ -42,6 +42,13 @@ a:link {
   left: 422px;
   top: 64px;
   position: absolute;
+}
+
+.topnav_menu a{
+  color: #5a5a5f;
+  font-family: Poppins;
+  display: flex;
+  column-gap: 30px;
 }
 
 :root {
@@ -155,4 +162,29 @@ main {
 
 .w-100 {
   width: 100%;
+}
+
+
+.main_nav {
+  position: relative; /* Define o contexto de posicionamento */
+}
+
+
+.menu_ul li {
+  margin-bottom: 10px; /* Espaçamento entre os itens */
+}
+
+/* Estilize o contêiner "Logout" */
+.Logout {
+  position: absolute; /* Posicionamento absoluto */
+  bottom: 0; /* Coloca o "Logout" no canto inferior */
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between; /* Distribui o espaço entre os elementos */
+}
+
+.chart {
+  flex-grow: 1;
 }
